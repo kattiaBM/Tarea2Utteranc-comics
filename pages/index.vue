@@ -44,14 +44,14 @@ html, body {
   background-size: cover; /* La imagen cubrirá todo el contenedor */
   background-position: center;
   background-repeat: no-repeat; /* Evita que la imagen se repita */
-  color: #2cc4af;
+  color: #dc3545;
   text-align: center;
   padding: 0;
 }
 
 h1 {
   font-size: 4em;
-  color: #2fcbf1;
+  color: #dc3545;
 }
 
 p {

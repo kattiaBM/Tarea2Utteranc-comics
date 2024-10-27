@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
+  <div class="ilustradores-page">
     <!-- Botón para regresar al Home -->
-    <button class="home-button" @click="goHome">Inicio</button>
+    <button class="btn-home" @click="goHome">Inicio</button>
 
     <h1>Ilustradores</h1>
 
     <!-- Enlaces a otras secciones -->
-    <nav>
+    <nav class="nav-links">
       <NuxtLink to="/comics" class="link">Comics</NuxtLink> |
       <NuxtLink to="/personajes" class="link">Personajes</NuxtLink>
     </nav>
@@ -15,17 +15,22 @@
     <ul class="ilustradores-list">
       <li v-for="ilustrador in ilustradores" :key="ilustrador.id" class="ilustrador-item">
         <img :src="ilustrador.image" :alt="ilustrador.nombre" class="ilustrador-image">
-        <h2>{{ ilustrador.nombre }}</h2>
-        <p>Estilo: {{ ilustrador.estilo }}</p>
+        <div class="ilustrador-info">
+          <h2>{{ ilustrador.nombre }}</h2>
+          <p>Estilo: {{ ilustrador.estilo }}</p>
+        </div>
       </li>
     </ul>
+
+    <!-- Sección de comentarios -->
+    <div ref="comments"></div>
   </div>
 </template>
 
 <script>
 export default {
   async asyncData () {
-    // Cargar los datos desde el archivo estático ilustrador.json
+    // Cargar los datos desde el archivo estático ilustradores.json
     try {
       const ilustradores = await fetch('/data/ilustradores.json').then(res => res.json())
       return { ilustradores }
@@ -43,20 +48,25 @@ export default {
     script.setAttribute('theme', 'github-light')
     script.setAttribute('crossorigin', 'anonymous')
     script.async = true
-    this.$refs.comments.appendChild(script)
+    this.$refs.comments.appendChild(script) // Usar refs para el div de comentarios
+  },
+  methods: {
+    goHome () {
+      this.$router.push('/') // Cambiar la ruta al home
+    }
   }
 }
 </script>
 
 <style scoped>
-/* Centrar el contenido */
-.container {
+/* Contenedor principal de la página */
+.ilustradores-page {
   text-align: center;
   padding: 20px;
 }
 
 /* Estilo del botón Home */
-.home-button {
+.btn-home {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -68,12 +78,12 @@ export default {
   cursor: pointer;
 }
 
-.home-button:hover {
+.btn-home:hover {
   background-color: #0056b3;
 }
 
 /* Enlaces de navegación */
-nav {
+.nav-links {
   margin-bottom: 20px;
 }
 
@@ -92,22 +102,26 @@ nav {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+/* Cada ítem de ilustrador */
 .ilustrador-item {
-  margin-bottom: 10px;
+  margin: 20px;
   border: 1px solid #ddd;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   background-color: #f9f9f9;
   display: flex;
-  flex-direction: initial;
+  flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
 .ilustrador-image {
-  width: 80px; /* Ajusta el tamaño según sea necesario */
+  width: 100px; /* Ajusta el tamaño según sea necesario */
   height: auto;
   margin-bottom: 10px;
 }

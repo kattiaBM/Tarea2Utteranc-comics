@@ -23,7 +23,7 @@
     </ul>
 
     <!-- Sección de comentarios -->
-    <div id="utterances"></div>
+    <div ref="comments"></div>
   </div>
 </template>
 
@@ -48,7 +48,12 @@ export default {
     script.setAttribute('theme', 'github-light')
     script.setAttribute('crossorigin', 'anonymous')
     script.async = true
-    this.$refs.comments.appendChild(script)
+    this.$refs.comments.appendChild(script) // Usar refs para el div de comentarios
+  },
+  methods: {
+    goHome () {
+      this.$router.push('/') // Cambiar la ruta al home
+    }
   }
 }
 </script>
