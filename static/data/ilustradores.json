@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Steve Ditko",
+    "estilo": "Creador de Spider-Man con trazos elegantes y dinámicos.",
+    "image": "/image/Steve Ditko.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Jim Lee",
+    "estilo": "Ilustrador icónico de Batman y Superman con detalles realistas.",
+    "image": "/image/Jim Lee.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Jack Kirby",
+    "estilo": "El Rey de los cómics con su estilo explosivo y personajes imponentes.",
+    "image": "/image/Jack Kirby.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "John Romita Jr.",
+    "estilo": "Reconocido por su enfoque audaz en personajes de Marvel.",
+    "image": "/image/Romita.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Alex Ross",
+    "estilo": "Conocido por su arte hiperrealista en cómics de DC y Marvel.",
+    "image": "/image/Alex Roos.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "George Pérez",
+    "estilo": "Ilustrador clave en Wonder Woman y Avengers.",
+    "image": "/image/george perez.jpg"
+  }
+]
