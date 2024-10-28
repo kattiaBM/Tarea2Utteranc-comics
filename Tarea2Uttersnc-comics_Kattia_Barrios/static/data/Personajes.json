@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Chadwick Boseman(BlackPanther)",
+    "descripcion": "Rey de Wakanda, un héroe con habilidades mejoradas.",
+    "image": "/image/Chadwick Boseman(blackPanther).jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Bruce Wayne(batman)",
+    "descripcion": "El Caballero Oscuro de Gotham City.",
+    "image": "/image/Bruce Wayne(batman).jpeg"
+  },
+  {
+    "id": 3,
+    "nombre": "Clark Kent(superman)",
+    "descripcion": "El último hijo de Krypton, símbolo de esperanza.",
+    "image": "/image/Clark Kent(superman).jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Anthony Edward(ironMan)",
+    "descripcion": "El genio, millonario y superhéroe con un traje blindado.",
+    "image": "/image/Anthony Edward(ironMan).jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Lynda_Carter_(Wonder_Woman)",
+    "descripcion": "La guerrera amazona y protectora del mundo.",
+    "image": "/image/Lynda_Carter_(Wonder_Woman).jpeg"
+  },
+  {
+    "id": 6,
+    "nombre": "Peter Parke(Spider-Man)",
+    "descripcion": "El Hombre Araña, defensor de Nueva York.",
+    "image": "/image/Peter Parke(spiderman).jpg"
+  }
+]

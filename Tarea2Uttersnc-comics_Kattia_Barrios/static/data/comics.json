@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "titulo": "Spider-Man: Homecoming",
+    "editorial": "Marvel",
+    "portada": "/image/spider-man.jpg",
+    "personajes": [ 2],
+    "ilustradores": [ 3]
+  },
+  {
+    "id": 2,
+    "titulo": "Batman: The Dark Knight",
+    "editorial": "DC Comics",
+    "portada": "/image/batman.jpg",
+    "personajes": [3],
+    "ilustradores": [2]
+  },
+  {
+    "id": 3,
+    "titulo": "Superman: Man of Steel",
+    "editorial": "DC Comics",
+    "portada": "/image/superman.jpg",
+    "personajes": [4],
+    "ilustradores": [4]
+  },
+  {
+    "id": 4,
+    "titulo": "The Avengers: Endgame",
+    "editorial": "Marvel",
+    "portada": "/image/avangers.jpg",
+    "personajes": [1],
+    "ilustradores": [1]
+  },
+  {
+    "id": 5,
+    "titulo": "Wonder Woman: Origins",
+    "editorial": "DC Comics",
+    "portada": "/image/wonder_woman.jpg",
+    "personajes": [6],
+    "ilustradores": [6]
+  },
+  {
+    "id": 6,
+    "titulo": "X-Men: Days of Future Past",
+    "editorial": "Marvel",
+    "portada": "/image/xmen.jpg",
+    "personajes": [2],
+    "ilustradores": [3]
+  },
+  {
+    "id": 7,
+    "titulo": "The Flash: Rebirth",
+    "editorial": "DC Comics",
+    "portada": "/image/flash.jpg",
+    "personajes": [4],
+    "ilustradores": [2]
+  },
+  {
+    "id": 8,
+    "titulo": "Captain America: Civil War",
+    "editorial": "Marvel",
+    "portada": "/image/captainamerica.jpg",
+    "personajes": [1],
+    "ilustradores": [1]
+  },
+  {
+    "id": 9,
+    "titulo": "Aquaman: The Trident",
+    "editorial": "DC Comics",
+    "portada": "/image/aquaman.jpg",
+    "personajes": [6],
+    "ilustradores": [3]
+  },
+  {
+    "id": 10,
+    "titulo": "Iron Man: Extremis",
+    "editorial": "Marvel",
+    "portada": "/image/iron_man.jpg",
+    "personajes": [5],
+    "ilustradores": [4]
+  },
+  {
+    "id": 11,
+    "titulo": "Black Panther: Wakanda Forever",
+    "editorial": "Marvel",
+    "portada": "/image/black_panther.jpg",
+    "personajes": [2],
+    "ilustradores": [1]
+  },
+  {
+    "id": 12,
+    "titulo": "Justice League: The New Frontier",
+    "editorial": "DC Comics",
+    "portada": "/image/justiceleague.jpg",
+    "personajes": [ 4],
+    "ilustradores": [ 5]
+  }
+]
