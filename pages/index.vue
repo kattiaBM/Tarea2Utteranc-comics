@@ -39,7 +39,7 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 100vh; /* Asegura que el contenedor cubra toda la pantalla */
-  width: 100%; /* Cambiado a 100% para que se ajuste al ancho de la pantalla */
+  width: 60%; /* Cambiado a 100% para que se ajuste al ancho de la pantalla */
   background-image: url('/image/Portada comics.jpg');
   background-size: cover; /* La imagen cubrirá todo el contenedor */
   background-position: center;

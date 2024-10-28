@@ -95,8 +95,13 @@ ul {
   margin-bottom: 10px;
   object-fit: contain;
 }
+.h1{
+  font-size: 4em;
+  color: #dc3545;
+  text-align: center;
+}
 
-h2, p {
+.h2, p {
   color: black;
 }
 
